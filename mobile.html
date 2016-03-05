@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Vermont Marina</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <script type="text/javascript">
+
+    $.getScript('//cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js',function(){
+
+$('#lazyload1 .lazy1').lazyload({
+
+});
+  $('#lazyload2 .lazy2').lazyload({
+
+});
+    $('#lazyload3 .lazy3').lazyload({
+
+});
+    $('#lazyload4 .lazy4').lazyload({
+
+});
+        $('#lazyload5 .lazy5').lazyload({
+
+});
+                $('#lazyload6 .lazy6').lazyload({
+
+});
+
+});
+
+$(function() {
+    $("img.lazy1").lazyload({
+        event : "sporty"
+    });
+});
+
+$(window).bind("load", function() {
+    var timeout = setTimeout(function() {
+        $("img.lazy1").trigger("sporty")
+    }, 6000);
+});
+
+
+
+$(function() {
+    $("img.lazy2").lazyload({
+        event : "sporty2"
+    });
+});
+
+$(window).bind("load", function() {
+    var timeout = setTimeout(function() {
+        $("img.lazy2").trigger("sporty2")
+    }, 7000);
+});
+
+
+$(function() {
+    $("img.lazy3").lazyload({
+        event : "sporty4"
+    });
+});
+
+$(window).bind("load", function() {
+    var timeout = setTimeout(function() {
+        $("img.lazy3").trigger("sporty4")
+    }, 8000);
+});
+
+
+$(function() {
+    $("img.lazy4").lazyload({
+        event : "sporty5"
+    });
+});
+
+$(window).bind("load", function() {
+    var timeout = setTimeout(function() {
+        $("img.lazy4").trigger("sporty5")
+    }, 9000);
+});
+
+$(function() {
+    $("img.lazy5").lazyload({
+        event : "sporty6"
+    });
+});
+
+$(window).bind("load", function() {
+    var timeout = setTimeout(function() {
+        $("img.lazy5").trigger("sporty6")
+    }, 9500);
+});
+
+$(function() {
+    $("img.lazy6").lazyload({
+        event : "sporty6"
+    });
+});
+
+$(window).bind("load", function() {
+    var timeout = setTimeout(function() {
+        $("img.lazy6").trigger("sporty6")
+    }, 9500);
+});
+
+
+    </script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" style="background-color: #38DDEA;">
+
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                   <img src="images/logo/fish.png" style="
+    width: 50%;
+">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#calendar">Calendar</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#menu">Menu</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Directions</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <a href="#menu" class="page-scroll">
+                        <img src="images/logo/marinalogo.png" style="
+                                    width: 90%;
+                                ">
+                                </a>
+                                 <a href="#menu" class=" page-scroll">
+                                <img src="images/logo/seafood.png" style="
+                                            width: 50%;
+                                            background-color: white;
+                                            opacity: 0.8;
+                                            border-radius: 19px;
+                                        ">
+                                </a><br>
+                            <a href="#calendar" class="btn btn-circle page-scroll">
+                                <i class="fa fa-angle-double-down animated"></i>
+                            </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="calendar" class="container-fluid content-section text-center">
+        <div class="row">
+
+                <h2>THE MARINA</h2>
+                <p>
+                  ~ The Marina Restaurant in Brattleboro
+                  sits on the water and offers beautiful views all year round. 
+                  Amazing sunsets are a specialty!
+                    <br><br>
+                  Seafood, burgers and steaks, pasta, kid’s menu, homemade desserts are the best! 
+                    <br><br>
+                  A beautiful view of the water is enjoyed from almost every seat in the restaurant. 
+                  </p>
+                  <a href="index2.html"><h3>For more details:<br>Visit our full HD Site!!</h3></a>
+              
+                <iframe src="https://www.google.com/calendar/embed?title=The%20Marina&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%2399ffff&amp;src=6oshcnn51l1q7idgsbc8pvfa68%40group.calendar.google.com&amp;color=%230F4B38&amp;ctz=America%2FVermont" style=" border-width:0; width: 95%; height: 400px; border-radius: 8px;" frameborder="0" scrolling="no" class="google-calender"></iframe>
+
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="menu" class="content-section text-center">
+        <div class="download-section">
+            <div class="container-fluid">
+        
+                    <h2>Our Menu</h2>
+ <ul class="nav nav-tabs" role="tablist" id="myTab" style="
+    color: #20429D;
+    font-family: sans-serif;
+    font-size: 1.2em;
+">
+             <!--  <li class="menu-tab"><a href="#turkey" role="tab" data-toggle="tab" aria-expanded="false">Thanksgiving</a></li> -->
+              <li class="menu-tab"><a href="#page1" role="tab" data-toggle="tab" aria-expanded="false">Page 1</a></li>
+              <li class="menu-tab"><a href="#page2" role="tab" data-toggle="tab" aria-expanded="false">Page 2</a></li>
+              <li class="menu-tab"><a href="#page3" role="tab" data-toggle="tab" aria-expanded="false">Page 3</a></li>
+              <li class="menu-tab active"><a href="#page4" role="tab" data-toggle="tab" aria-expanded="true">Page 4</a></li>
+              <li class="menu-tab"><a href="#page5" role="tab" data-toggle="tab">Page 5</a></li>
+              <li class="menu-tab"><a href="#page6" role="tab" data-toggle="tab">Page 6</a></li>
+              <li class="menu-tab"><a href="#brunch" role="tab" data-toggle="tab">Brunch</a></li>
+              <li class="menu-tab"><a href="#page7" role="tab" data-toggle="tab">Wine List</a></li>
+            </ul>
+            <div class="tab-content" style="max-height:500px;overflow-y:auto;"> 
+              <div class="tab-pane active" id="#turkey"><img src="turkey-menu.jpg" alt="menu page" class="center-block " style="height:100%; width:100%;"></div>
+              <div class="tab-pane" id="page1"><img src="images/menu/page1.jpg" alt="menu page" class="center-block " style="height:100%; width:100%;"></div>
+              <div class="tab-pane animated fadeInDown" id="page2"><div id="lazyload1"><img src="images/menu/page2.jpg" alt="menu page" class="center-block lazy1" style="height:100%; width:100%;"></div></div>
+              <div class="tab-pane animated fadeInDown" id="page3"><div id="lazyload2"><img src="images/menu/page3.jpg" alt="menu page" class="center-block lazy2" style="height:100%; width:100%;"></div></div>
+              <div class="tab-pane animated fadeInDown" id="page4"><div id="lazyload3"><img src="images/menu/page4.jpg" alt="menu page" class="center-block lazy3" style="height:100%; width:100%;"></div></div>
+              <div class="tab-pane animated fadeInDown" id="page5"><div id="lazyload4"><img src="images/menu/page5.jpg" alt="menu page" class="center-block lazy4" style="height:100%; width:100%;"></div></div>
+              <div class="tab-pane animated fadeInDown" id="page6"><div id="lazyload5"><img src="images/menu/page6.jpg" alt="menu page" class="center-block lazy5" style="height:100%; width:100%;"></div></div>
+               <div class="tab-pane animated fadeInDown" id="brunch"><div id="lazyload6"><img src="images/menu/brunch.jpg" alt="menu page"  class="lazy6"style="height:100%; width:100%;"></div></div>
+              <div class="tab-pane" id="page7">
+               <ul class="list-group text-center">
+                  <li class="list-group-item list-group-item-info "><em class="pull-left">
+                  Chandon split</em>classic bubbly from California</li>
+               
+
+
+                  <li class="list-group-item list-group-item-warning"><em class="pull-left">
+                  Stella pinot grigio</em>Italy-- aroma of pear, fresh and easy going Stella pinot grigio</li>
+
+
+                  <li class="list-group-item list-group-item-warning"><em class="pull-left">
+                  Loire Valley vouvray</em>France-- a chenin blanc for you sweeties</li>
+
+
+                  <li class="list-group-item list-group-item-warning"><em class="pull-left">
+                  The Crossings sauvignon blanc</em> New Zealand-- crisp passion fruit, classic Marlborough taste</li>
+                  
+
+
+                  <li class="list-group-item list-group-item-warning"><em class="pull-left">
+                  Peju sauvignon blanc</em> California-- ripe. rich. tropical.  </li>
+                  
+
+
+                  <li class="list-group-item list-group-item-warning"><em class="pull-left">
+                  Chateau Ducasse Bordeaux</em>France-- dry, sassy and French - need we say more?</li>
+
+<li class="list-group-item list-group-item-warning"><em class="pull-left">
+                 Red Tail Ridge chardonnay      </em>New York--  un-oaked and refreshing from the Finger Lakes</li>
+
+
+                  <li class="list-group-item list-group-item-warning"><em class="pull-left">
+                  Wente “Morning Fog” chardonnay </em>California-- this oaked chard delivers rich fruit and a great finish</li>
+
+
+
+                  <li class="list-group-item list-group-item-danger"><em class="pull-left">
+                 Wente “Sandstone” merlot </em>California-- velvet black cherry with a clear, dry finish
+                    </li>
+                  <li class="list-group-item list-group-item-danger"><em class="pull-left">
+                  642 Maremma Tuscan blend </em> Italy-- a taste-bud trip to Italy</li>
+                  <li class="list-group-item list-group-item-danger"><em class="pull-left">
+                  Ruta 22 malbec</em>Argentina-- fruity, smooth, and full-bodied</li>
+                
+                  <li class="list-group-item list-group-item-danger"><em class="pull-left"> 
+                 Lincourt Estate pinot noir </em>California   --perfectly balanced, world-class pinot, truly elegant</li>
+                  <li class="list-group-item list-group-item-danger"><em class="pull-left">
+                 Joel Gott cabernet sauvignon </em>California-- mocha and spice with a touch of tannin</li>
+                  <li class="list-group-item list-group-item-danger"><em class="pull-left">
+                  Brazin old vine zinfandel</em> California--  big, bold, black fruit and pepper</li>
+                </ul>   ;'  ;'
+     
+            </div>
+          </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="directions" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <address>
+                <img src="images/logo/marinalogo.png" style="width:100%; padding-top:-10px padding-bottom:10px;position: relative;top: -30px;">
+                    <a style="text-decoration:none;" href="http://www.google.com/maps/place/28+Spring+Tree+Rd,+Brattleboro,+VT+05301/@42.8676699,-72.55814,17z/data=!3m1!4b1!4m2!3m1!1s0x89e11af98f919289:0xc103548a89c79ef8" class="btn btn-default btn-lg">28 Spring Tree Road<br>
+                    Brattleboro, Vermont<br></a><br>
+                  <a href="tel:+18022577563"><span style="font-size: 18px;">(802) 257-7563</span></a>
+                </address>
+                <address>
+                  <a href="mailto:westrivermarina@gmail.com "><span class="glyphicon glyphicon-envelope"></span>
+                    westrivermarina@gmail.com </a> <br> <br>
+                    <strong class="animated pulse address-2">Our Restaurant and Gallery are Open:</strong><br><br>
+                    <span style="font-size: 1.5em;">Every Day <br>
+                    Sunday Brunch: 10am to 1pm<br><br>
+                    Hours: Sun: 10am-9pm  <br>  M-W: 11:30am-9pm <br>  Th-Sat: 11:30am-10pm </span><br>   <br>         
+                    <em>Comments, Suggestions & Inquiries are most welcome.</em>
+                
+                </p>
+                <script src="https://apis.google.com/js/platform.js" async defer></script>
+                    <g:plusone></g:plusone>
+                </address>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="http://twitter.com/vermontmarina" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    </li>
+                    <li>
+                        <a href="http://facebook.com/vermontmarina" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                    </li>
+                    <li>
+                        <a href="http://plus.google.com/+Vermontmarina/about" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                    </li>
+                     <li>
+                        <a href="http://www.google.com/maps/place/28+Spring+Tree+Rd,+Brattleboro,+VT+05301/@42.8676699,-72.55814,17z/data=!3m1!4b1!4m2!3m1!1s0x89e11af98f919289:0xc103548a89c79ef8" class="btn btn-default btn-lg"><span class="network-name">Directions in Google Maps </span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Map Section -->
+    <div class="panel-group" id="accordion" role="tablist" aria-expanded="false" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a class="collapsed"data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+         SEE A Google MAP:  Tap Here
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body" style="background-color: #38DDEA;">
+            <iframe id="map-canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2924.2395867879236!2d-72.558099!3d42.86778700000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e11af98f919289%3A0xfc8b4733988ba3d!2sThe+Marina!5e0!3m2!1sen!2sus!4v1428868722036&z=15" width="100%" height="400" frameborder="0" style="border:0" zoom="15"></iframe>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+    <div id="map"></div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; The Marina 2015</p>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+    <script type="text/javascript">
+
+function initialize() {
+  var mapOptions = {
+    zoom: 14,
+  }
+  var map = new google.maps.Map(document.getElementById("map-canvas"),
+       mapOptions);
+}
+    </script>
+
+</body>
+
+</html>
