@@ -115,6 +115,9 @@
         </div>
       </div>
     </div> -->
+    <div >
+      <a id="plunge" class="animated fadeInLeft" href="plunge-sign-up-sheet-2016.pdf" target="_blank">TAKE THE PLUNGE! 2016 <br><i class="fa fa-file-pdf-o"></i>&nbsp;DOWNLOAD.pdf</a>
+    </div>
 <!-- photos -->
     <div class="modal fade modal-photos" tabindex="-1" role="dialog"  aria-hidden="true">
       <div class="modal-dialog modal-lg">
@@ -672,46 +675,6 @@
       <div id="prlx_lyr_1" class="marina-layer">
       </div>
 
-<!--  snow   -->   
-<style type="text/css">
-
-
-
-
-/*
-#snowflake-wrapper{
-  position:relative;
-  width: 2500px;
-  max-width:2700px;
-  height: 646px;
-max-height: 646px;
-
-  overflow:hidden;
-}
-*/
-
-/*Snowflakes*/
-.snowflake{
-  position: absolute;
-  opacity: 1;
-  width:60px;
-  height: 60px;
-  background:  url(snowflake-sprite.png);
-  background-size:300%;
-  -webkit-transform: translate3d(0,0,0);
-  -moz-transform: translate3d(0,0,0);
-  -ms-transform: translate3d(0,0,0);
-  -o-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
-}
-
-.s0{background-position: 0}
-.s1{background-position:  -100%}
-.s2{background-position: -200%}
-
-  </style>
-
-
 
 <!-- Main Buttons -->
    
@@ -1113,49 +1076,49 @@ $(document).ready(function () {
  
 
 <!--  snow -->
-<script type="text/javascript">
+ <script type="text/javascript">
 
 
 
-var Snow = (function(){
-  var w = $(window).width(),
-      h = $(window).height(),
-      startPos = {x:0,y:50},
-      numFlakes = 12;
+// var Snow = (function(){
+//   var w = $(window).width(),
+//       h = $(window).height(),
+//       startPos = {x:0,y:50},
+//       numFlakes = 12;
 
-  //attach the snowflakes
-  for (var i=0;i<numFlakes;i++){  
-    var flake = $("<div />").attr("class", "snowflake "+"s"+(i%3));
-    flake.css({top:startPos.y,left:Math.random()*w,opacity:0});
+//   //attach the snowflakes
+//   for (var i=0;i<numFlakes;i++){  
+//     var flake = $("<div />").attr("class", "snowflake "+"s"+(i%3));
+//     flake.css({top:startPos.y,left:Math.random()*w,opacity:0});
    // flake.css({transform:"translate3d("+startPos.y+"px,"+Math.random()*w+"px,0)",opacity:0});
-    $("#prlx_lyr_1").append(flake);
-  }
+//     $("#prlx_lyr_1").append(flake);
+//   }
 
-  function animate(){
-    var snowflakes = $(".snowflake");
+//   function animate(){
+//     var snowflakes = $(".snowflake");
 
-    for (var i=0;i<snowflakes.length;i++){
-       var point0 = {left:Math.random()*w+20,top:startPos.y},
-          point1 = {left:Math.random()*w-200,top:Math.random()*h-20},
-          point2 = {left:Math.random()*w,top:h+100};
+//     for (var i=0;i<snowflakes.length;i++){
+//        var point0 = {left:Math.random()*w+20,top:startPos.y},
+//           point1 = {left:Math.random()*w-200,top:Math.random()*h-20},
+//           point2 = {left:Math.random()*w,top:h+100};
 
 
-      TweenMax.to(snowflakes[i], 10, {
-        delay:0.8*i,bezier:{
-          curviness:1.5, values:[point0,point1,point2], autoRotate:true},
-          opacity:0.8,repeat:-1,ease:Power1.easeOut
-      });
-    }
-  }
+//       TweenMax.to(snowflakes[i], 10, {
+//         delay:0.8*i,bezier:{
+//           curviness:1.5, values:[point0,point1,point2], autoRotate:true},
+//           opacity:0.8,repeat:-1,ease:Power1.easeOut
+//       });
+//     }
+//   }
   
-  $(window).resize(function(){
-    w = $(window).width();
-    h = $(window).height();
-  })
+//   $(window).resize(function(){
+//     w = $(window).width();
+//     h = $(window).height();
+//   })
 
-  animate();
+//   animate();
 
-})();
+// })();
 
 </script>
 
